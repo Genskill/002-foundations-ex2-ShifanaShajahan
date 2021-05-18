@@ -3,20 +3,17 @@
 #include <cs50.h>
 
 int main(void) {
- 
-  float a,b,c;
+ int a= get_int("side");
+ int b= get_int("side");
+ int c= get_int("side");
   
- for(a=1;a<=5;a++) 
-  {
-    for(b=1;b<=5;b++) 
-      {
-         if((c*c)=((a*a)+(b*b)));
-          
-          {
-            printf("Yes");
-            else
-            printf("No");
-          }
-      }
+ if(a,b<c && ((c*c)=((a*a)+(b*b)))) {
+    printf("Yes\n");
    }
- }
+ else
+  {
+    printf("No\n");
+  }
+}
+
+  
