@@ -10,8 +10,8 @@ int main(void) {
   {
     for(b=1;b<=5;b++) 
       {
-         c= sqrt((a*a)+(b*b));
-           if(c==(int)c) 
+         if((c*c)=((a*a)+(b*b)));
+          
           {
             printf("Yes");
             else:
