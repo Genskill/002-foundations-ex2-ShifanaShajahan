@@ -1,6 +1,6 @@
 //pythagorean.c
 #include<stdio.h>
-#include<conio.h>
+#include<cs50.h>
 #include<math.h>
 int main()
 {
