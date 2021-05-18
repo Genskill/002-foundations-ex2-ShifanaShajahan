@@ -3,8 +3,8 @@
 #include <cs50.h>
 
 int main(void) {
-  int a,b;
-  float c;
+ 
+  float a,b,c;
   
  for(a=1;a<=5;a++) 
   {
@@ -14,7 +14,7 @@ int main(void) {
           
           {
             printf("Yes");
-            else:
+            else
             printf("No");
           }
       }
