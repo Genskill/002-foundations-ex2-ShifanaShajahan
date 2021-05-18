@@ -7,7 +7,7 @@ int main(void) {
  int b= get_int("side");
  int c= get_int("side");
   
- if(a,b<c && ((c*c)=((a*a)+(b*b)))) {
+ if((c*c)=((a*a)+(b*b)))) {
     printf("Yes\n");
    }
  else
