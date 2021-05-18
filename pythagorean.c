@@ -1,19 +1,24 @@
 //pythagorean.c
-#include <stdio.h>
-#include <cs50.h>
+#include<stdio.h>
+#include<conio.h>
+#include<math.h>
+int main()
+{
+    int a, b;
+    float c;
 
-int main(void) {
- int a= get_int("side");
- int b= get_int("side");
- int c= get_int("side");
-  
- if((c*c)=((a*a)+(b*b)))) {
-    printf("Yes\n");
-   }
- else
-  {
-    printf("No\n");
-  }
-}
-
-  
+    //calculate the another side using Pythagoras Theorem
+    //a*a + b*b = c*c
+    //c = sqrt(a*a+b*b)
+    //maximum length should be equal to 30
+    for(a=1;a<=5;a++)
+    {
+        for(b=1;b<=5;b++)
+        {
+            c = sqrt(a*a+b*b);
+            if(c == (int)c)
+            {
+                printf("(%d, %d, %d)\n",a,b,(int)c);
+            }
+        }
+    }
