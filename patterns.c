@@ -7,7 +7,8 @@ int main(void) {
       int a= get_int("Enter type of pattern(1 or 2)");
       int b= get_int("Number of rows");
     
-    if(pattern 1) {
+    if(a=1) { 
+      int i,j;
             for(i=5;i>=1;i--)
              {  
                for(j=1;j<=i;j++)
@@ -18,6 +19,7 @@ int main(void) {
               }
           
      else
+       int i,j,k;
          for(i=1;i<=5;i++)
               {
                 for(j=5-1;j>=i;j--)
