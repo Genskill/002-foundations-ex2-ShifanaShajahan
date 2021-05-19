@@ -8,7 +8,7 @@ int main(void) {
      int c= get_int("side");
 
      
-    if(a+b>=c,b+c>=a,a+c>=b)
+    if(a+b>=c,a+c>=b,b+c>=c)
       { 
        printf("Yes");
       }
