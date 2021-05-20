@@ -17,7 +17,9 @@ for(int i=4;i >=1;--i)
          printf("#");
        }
          printf("\n");
+   {
+    printf("\n");
    } 
  } 
-
+}
     
