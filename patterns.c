@@ -7,11 +7,7 @@ int b=get_int("Number of rows");
    printf("\n");
 int i,j;
 for(i=4;i>=1;i--)
-   {
-     for(j=1;j<=i;j++)
-       {
-         printf("#");
-       }
-    printf("\n");
-   } 
+  {  for(j=1;j<=i;j++)
+       {   printf("#"); }
+    printf("\n");} 
 }
