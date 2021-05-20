@@ -8,9 +8,9 @@ int b=get_int("Number of rows\n", "");
 
 
 int i,j;
-for(i=4;i>=1;i--)
+for(i=1;i<=4;i++)
    {
-     for(j=1;j<=i;j++)
+     for(j=4;j>=i;j--)
        {
          printf("#");
        }
