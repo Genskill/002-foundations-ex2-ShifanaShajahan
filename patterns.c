@@ -14,5 +14,5 @@ for(i=4;i>=1;i--){
      printf("\n");  
      
     }
-     printf(""");
+     printf(" " ");
   }
