@@ -3,8 +3,7 @@
 #include <cs50.h>
 
 int main(void) {
-int a=get_int("Enter type of pattern (1or2)\n");
-int b=get_int("Number of rows\n");
+int a=get_int("Enter type of pattern (1 or 2) Number of rows", "");
   
 int i,j;
 for(i=4;i>=1;i--)
