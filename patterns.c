@@ -15,7 +15,7 @@ int main(void){
       int b= get_int("Number of rows\n");
       
      int i;
-     for(i=4;i>0; i--)
+     for(i=4;i>=0; i--)
           {
            draw_line(i);    
      }
