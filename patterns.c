@@ -6,14 +6,12 @@
 int main(void){
       int a=get_int("Enter type of pattern (1 or 2)\n");
       int b=get_int("Number of rows");
-      printf("\n");
-                
+      printf("\n");            
  int i,j;
-     for(i=5;i>=1;i--){
+     for(i=4;i>=1;i--){
        for(j=1;j<=i;j++){
          printf("#");}
-         if(i==1) break;
-         
+         if(i==1) break
        printf("\n");
        }
   }
