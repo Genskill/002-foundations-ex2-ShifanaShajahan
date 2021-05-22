@@ -11,6 +11,6 @@ int main(void){
          if(i<=1) break;
        printf("\n");
        }
-    printf("\n");
- printf("All good");
+   
+ 
   }
