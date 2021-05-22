@@ -9,4 +9,5 @@ int main(void){
          if(i<=1) break;
        printf("\n");
        }
+ printf("program finished");
   }
