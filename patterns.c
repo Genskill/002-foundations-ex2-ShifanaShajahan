@@ -11,7 +11,7 @@ int main(void){
     
       {
   printf("#");}
- if(i==1)break;
+ 
      printf("\n");
    }
   
